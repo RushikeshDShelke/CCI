@@ -1,4 +1,4 @@
-FROM invanos/Auto_CA:latest
+FROM invanos/auto_ca:latest
 
 #### Copy Configuration of Nginx
 RUN rm -rf /etc/nginx/nginx.conf
